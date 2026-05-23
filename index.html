@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks App</title>
+  </head>
+  <body>
+    <header>
+      <h1>To-do-list App</h1>
+      <button id="btn-tema">Modo oscuro</button>
+    </header>
+    <main>
+      <section id="formulario">
+        <input id="anadir-tarea" type="text" placeholder="Añade una tarea..." />
+        <button id="btn-anadir" type="button">Añadir</button>
+      </section>
+      <section id="controles">
+        <p id="contador">Tareas: X</p>
+        <div id="filtros">
+          <button id="btn-all" data-filtro="all">Todas</button>
+          <button id="btn-pending" data-filtro="pending">Pendientes</button>
+          <button id="btn-completed" data-filtro="completed">
+            Completadas
+          </button>
+        </div>
+      </section>
+      <section id="tareas">
+        <ul id="lista-tareas"></ul>
+      </section>
+    </main>
+  </body>
+</html>
