@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+/* ================================
+    Modo claro
+   ================================ */
+:root {
+  --color-bg: #faf8f5; /* fondo principal */
+  --color-surface: #ffffff; /* fondo de tarjetas  */
+  --color-text: #1c1a17; /* texto principal  */
+  --color-text-secondary: #78716c; /* texto secundario/hints  */
+  --color-border: #e7e5e4; /* bordes y separadores  */
+  --color-accent: #ea580c; /* acento principal  */
+  --color-accent-hover: #c2410c; /* acento en hover  */
+  --color-accent-light: #fed7aa; /* acento desaturado para fondos  */
+}
+
+.dark {
+  --color-bg: #1c1917; /* Fondo principal */
+  --color-surface: #292524; /* Superficie de tarjetas */
+  --color-text: #fafaf9; /* Texto principal */
+  --color-text-secondary: #a8a29e; /* Texto secundario */
+  --color-border: #44403c; /* Bordes y separadores */
+  --color-accent: #fb923c; /* Acento — naranja más luminoso en oscuro */
+  --color-accent-hover: #ea580c; /* Acento en hover */
+  --color-accent-light: #431407; /* Acento desaturado para fondos */
+}
