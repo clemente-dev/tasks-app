@@ -33,3 +33,37 @@ button {
   --color-accent-hover: #ea580c; /* Acento en hover */
   --color-accent-light: #431407; /* Acento desaturado para fondos */
 }
+
+/* ================================
+    Contenedor principal
+   ================================ */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  color: var(--color-text);
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ================================
+    Contenedor app
+   ================================ */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  max-width: 80%;
+  background-color: var(--color-surface);
+  border-radius: 10px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
